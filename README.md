@@ -1,14 +1,41 @@
 # Pool-Matrix-Monitor
+## In_preparation
 [![Generic badge](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/fandau1/Pool-Matrix-Monitor/edit/master/README_CZ.md)
 
 **Simple arduino pool clock with sensors**
 
-In preparation
+
 
 Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data send to ThingSpeak, or GET to server.
 
-
 # Hardware
+**Components:**
+  * Basic
+    * Arduino nano
+    * DS3231
+    * MAX7219 Matrix LED Display Module 4-v-1
+  * Optional   
+    * W5500 mini Ethernet
+    * DS18B20 *- temperature sensor*
+    * PH sensor PH-4502C 
+  
+**Schematic**
+  * Simple scheme (Version v1.1H)
+
+|  Arduino  |   |  Modules  |
+| :-------: |---|  :------: |
+| RESET | -> | W5500(RST) |
+| D13(SCK) | -> | W5500(SCLK), MATRIX(CLK) |
+| D12(MISO) | -> | W5500(MISO) |
+| D11(MOSI) | -> | W5500(MOSI), MATRIX(DIN) |
+| D10(SS) | -> | W5500(SCS) |
+| D8 | -> | W5500(SCS) |
+| D10(SS) | -> | MATRIX(CS) |
+| D5(PWM) | -> | DS18B20 |
+| A5(SCL) | -> | DS3231(SCL) |
+| A4(SDA) | -> | DS3231(SDA) |
+| A1 | -> | PH sensor |
+| A0 | -> | Photo resistor(LUX meter) |
 
 # Installation
 **Library**
