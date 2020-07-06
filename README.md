@@ -48,6 +48,10 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 <img src="image/pool-scheme.png" height="700" />
 
 # Installation
+ * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
+ 
+ **PS: In this time isn'nt code uploaded :) . In early time will be upload.**
+ 
 **Library**
   * [MD_MAX72xx](https://github.com/MajicDesigns/MD_MAX72XX) - *from MajicDesigns*
   * [RTClib](https://github.com/adafruit/RTClib) - *from adafruit*
