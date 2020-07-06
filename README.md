@@ -4,9 +4,16 @@
 
 **Simple arduino pool clock with sensors**
 
-
+<img src="image/matrix-cycle.gif" height="300" />
 
 Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data send to ThingSpeak, or GET to server.
+
+# Features
+  * Matrix display in cykle(TIME,"Outsite",OUTSITE_TEMPERATURE,"Pool",POOL_TEMPERATURE)
+  * Automatic detection connected sensors
+  * Auto correct summer and standart time
+  * NTP synchronize time
+  * send data to database (MYSQL), ThingSpeak
 
 # Hardware
 **Components:**
@@ -36,6 +43,9 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 | A4(SDA) | -> | DS3231(SDA) |
 | A1 | -> | PH sensor |
 | A0 | -> | Photo resistor(LUX meter) |
+
+  * Full scheme (Version v1.1H)
+<img src="image/pool-scheme.png" height="700" />
 
 # Installation
 **Library**
