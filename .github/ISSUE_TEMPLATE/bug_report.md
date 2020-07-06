@@ -10,21 +10,20 @@ assignees: fandau1
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**When happend bug**
+Describe the steps that happened to the bug
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Your Environment
+**Library Version:** 
+**Arduino IDE version:** 
+**Hardware model/type:** 
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Hardware**
-Please add your hardware version which is used
+**Photos Screenshots**
+If applicable, add photo or screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
