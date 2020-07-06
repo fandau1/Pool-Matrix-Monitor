@@ -8,12 +8,11 @@
 
 Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data send to ThingSpeak, or GET to server.
 
-# Features
-  * Matrix display in cycle(TIME,"Outsite",OUTSITE_TEMPERATURE,"Pool",POOL_TEMPERATURE)
-  * Automatic detection connected sensors
-  * Auto correct summer and standart time
-  * NTP synchronize time
-  * send data to database (MYSQL), ThingSpeak
+# Main Features
+  * [x] Matrix display in cycle(TIME,"Outsite",OUTSITE_TEMPERATURE,"Pool",POOL_TEMPERATURE)
+  * [x] Sensors light, temperature, ph 
+  * [x] Auto correct summer and standart time (DST correct)
+  * [x] NTP synchronize time
 
 # Components
 Basic
@@ -59,4 +58,12 @@ Optional
   * [RTClib](https://github.com/adafruit/RTClib) - *from adafruit*
   * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) - *from milesburton*
   * [Ethernet2](https://github.com/adafruit/Ethernet2) - *from adafruit*
-  * [DST_RTC](https://github.com/andydoro/DST_RTC) - *from andydoro*
+  * [DST_RTC](https://github.com/andydoro/DST_RTC) - *from andydoro*  
+  
+## Planned Features
+  * [ ] send data to database (MYSQL), ThingSpeak
+  * [ ] Automatic detection connected sensors  
+  * [ ] ESP8266/ESP32 version
+  
+## Support
+Project is supported if you have any problem contact me.
