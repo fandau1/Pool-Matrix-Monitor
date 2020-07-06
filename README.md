@@ -27,7 +27,7 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
     * PH sensor PH-4502C 
   
 **Schematic**
-  * Simple scheme (Version v1.1H)
+  * Version v1.1H **Arduino nano**
 
 |  Arduino  |   |  Modules  |
 | :-------: |---|  :------: |
@@ -44,8 +44,7 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 | A1 | -> | PH sensor |
 | A0 | -> | Photo resistor(LUX meter) |
 
-  * Full scheme (Version v1.1H)
-<img src="image/pool-scheme.png" height="700" />
+<img src="image/pool-scheme.png" height="600" />
 
 # Installation
  * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
