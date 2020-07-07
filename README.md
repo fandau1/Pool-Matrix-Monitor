@@ -1,6 +1,7 @@
 # Pool-Matrix-Monitor
 ## In preparation
 [![Generic badge](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
+[![Generic badge](https://img.shields.io/badge/platform-arduino-lightgrey)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 
 **Simple arduino pool clock with sensors**
 
@@ -9,33 +10,37 @@
 Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data send to ThingSpeak, or GET to server.
 
 # Main Features
-  * [x] Matrix display in cycle(TIME,"Outsite",OUTSITE_TEMPERATURE,"Pool",POOL_TEMPERATURE)
-  * [x] Sensors light, temperature, ph 
+  * [x] Matrix display in cycle(TIME,"Outsite",OUTSITE_TEMPERATURE,"Pool",POOL_TEMPERATURE,"PH sensor", POOL_PH)
+  * [x] Measurement of Sensors light, temperature, ph 
+  * [x] Auto detection connected sensors
   * [x] Auto correct summer and standart time (DST correct)
-  * [x] NTP synchronize time
 
-# Components
-Basic
+
+# Hardware Versions
+|  HW Versions  | MCU | transfer type pool sensor | SW release | HW release |  Approximate price  |
+| :--------: |:---:| :-----------------------: | :--------: | :--------: | :-----------------: |
+| PoolMatrixNano | Arduino nano | cable | Not realesed | Not realesed | ~13$ |
+| PoolMatrixNanoEth | Arduino nano | cable | Not realesed | Not realesed |  |
+| PoolMatrixESP32 | ESP32 | cable OR WIFI | Not realesed | Not realesed |  |
+| PoolMatrixESP8266 | ESP8266 | cable OR WIFI | Not realesed | Not realesed | |
+
+# PoolMatrixNano
+**Basic**
   * Arduino nano
   * DS3231
   * MAX7219 Matrix LED Display Module 4-v-1
+  * some resistors
   
-Optional   
-  * W5500 mini Ethernet
+**Optional**
   * DS18B20 *- temperature sensor*
+  * Photo Resistor
   * PH sensor PH-4502C 
     
-# Schematic
-  * Version v1.1H **Arduino nano**
-
+**Schematic**
 |  Arduino  |   |  Modules  |
 | :-------: |---|  :------: |
-| RESET | -> | W5500(RST) |
-| D13(SCK) | -> | W5500(SCLK), MATRIX(CLK) |
-| D12(MISO) | -> | W5500(MISO) |
-| D11(MOSI) | -> | W5500(MOSI), MATRIX(DIN) |
-| D10(SS) | -> | W5500(SCS) |
-| D8 | -> | W5500(SCS) |
+| D13(SCK) | -> |  MATRIX(CLK) |
+| D11(MOSI) | -> |  MATRIX(DIN) |
 | D10(SS) | -> | MATRIX(CS) |
 | D5(PWM) | -> | DS18B20 |
 | A5(SCL) | -> | DS3231(SCL) |
@@ -44,9 +49,6 @@ Optional
 | A0 | -> | Photo resistor(LUX meter) |
 
 <img src="image/pool-scheme.png" height="600" />
-
-# PCB
-  **Pcb are preparing**
 
 # Installation
  * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
@@ -59,11 +61,14 @@ Optional
   * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) - *from milesburton*
   * [Ethernet2](https://github.com/adafruit/Ethernet2) - *from adafruit*
   * [DST_RTC](https://github.com/andydoro/DST_RTC) - *from andydoro*  
-  
+
+# PCB
+  **Pcb are preparing**
+
 ## Planned Features
   * [ ] send data to database (MYSQL), ThingSpeak
-  * [ ] Automatic detection connected sensors  
   * [ ] ESP8266/ESP32 version
+  * [x] NTP synchronize time
   
 ## Support
 Project is supported if you have any problem contact me.
