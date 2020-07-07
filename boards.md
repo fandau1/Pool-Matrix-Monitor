@@ -31,4 +31,4 @@
 | A1 | -> | PH sensor |
 | A0 | -> | Photo resistor(LUX meter) |
 
-<img src="image/pool-scheme.png" height="600" />
+<img src="image/pool-scheme.png" height="1000" />
