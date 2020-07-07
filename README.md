@@ -55,11 +55,14 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 <img src="image/pool-scheme.png" height="600" />
 
 ## PCB
-  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb.
+  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb. PCB is saved in **pcb/...** you can choose more version(no ethernet, etc.).
+ 
   **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
 
 # Installation
  * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
+ 
+ **In MD_Parola library you must to disable all advance function for a smaller size.**
  
  **PS: In this time isn'nt code uploaded :) . In early time will be upload.**
  
