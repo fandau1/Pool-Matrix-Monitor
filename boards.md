@@ -38,10 +38,10 @@ Offline arduino nano mcu with rtc, matrix display and sensors. Simple cheap and 
 <img src="image/pool-scheme.png" height="1000" />
 
 ## PCB
-I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb.
+I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb. PCB is saved in **pcb/...** you can choose more version(no ethernet, etc.).
 
 ## Tutorial
-First, it is important to engage the schematic. You can plug it into a breadboard or use my pcb design. It is also possible to connect a circuit to a prototype pcb if you do not have the ability to produce a pcb.
+First, it is important to engage the schematic. You can plug it into a breadboard or use my pcb design. It is also possible to connect a circuit to a prototype pcb if you do not have the ability to produce a pcb. PCB is saved in **pcb/...** you can choose more version(no ethernet, etc.).
 
 If you do not want any sum in the optional section, you do not need to use it. The code will work. So if you don't want a ph sensor, you don't have to connect it. 
 
