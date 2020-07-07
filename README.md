@@ -64,7 +64,7 @@ for more info with tutorial go to section [All Boards list](boards.md)
   * [DST_RTC](https://github.com/andydoro/DST_RTC) - *from andydoro*  
 
 # PCB
-  I designed PCB oneside only with some proclaim wires :). So, you can easily wreate in home or you can solder on prototype pcb.
+  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb.
   **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
 
 ## Planned Features
