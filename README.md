@@ -4,7 +4,7 @@
 
 **Simple arduino pool clock with sensors**
 
-<img src="image/matrix-cycle.gif" height="300" />
+<img src="image/matrix-cycle.gif" height="250" />  <img src="image/pool-block.png" height="280" />
 
 Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data send to ThingSpeak, or GET to server.
 
