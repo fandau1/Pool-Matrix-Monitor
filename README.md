@@ -1,5 +1,4 @@
 # Pool-Matrix-Monitor
-## In preparation
 [![Generic badge](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 [![Generic badge](https://img.shields.io/badge/platform-arduino-lightgrey)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 
@@ -24,7 +23,7 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 | PoolMatrixESP32 | ESP32 | cable OR WIFI | Not realesed | Not realesed |  |
 | PoolMatrixESP8266 | ESP8266 | cable OR WIFI | Not realesed | Not realesed | |
 
-# PoolMatrixNano
+## PoolMatrixNano
 **Basic**
   * Arduino nano
   * DS3231
