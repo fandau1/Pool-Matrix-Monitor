@@ -76,4 +76,4 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   * [x] NTP synchronize time
   
 ## Support
-Project is supported if you have any problem contact me.
+Project is supported if you have any problem contact me. Please give me a :star: if you like my project. If you have any problem feel free and contact me.
