@@ -32,3 +32,5 @@
 | A0 | -> | Photo resistor(LUX meter) |
 
 <img src="image/pool-scheme.png" height="1000" />
+
+## PCB
