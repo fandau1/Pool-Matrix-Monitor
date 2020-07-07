@@ -7,6 +7,8 @@
 | PoolMatrixESP8266 | ESP8266 | cable OR WIFI | Not realesed | Not realesed | |
 
 # PoolMatrixNano
+Offline arduino nano mcu with rtc, matrix display and sensors. Simple cheap and easy for home pool.
+
 ## Components
 **Basic**
   * Arduino nano
