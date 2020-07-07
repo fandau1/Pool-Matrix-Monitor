@@ -54,6 +54,10 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 
 <img src="image/pool-scheme.png" height="600" />
 
+## PCB
+  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb.
+  **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
+
 # Installation
  * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
  
@@ -65,10 +69,6 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   * [DallasTemperature](https://github.com/milesburton/Arduino-Temperature-Control-Library) - *from milesburton*
   * [Ethernet2](https://github.com/adafruit/Ethernet2) - *from adafruit*
   * [DST_RTC](https://github.com/andydoro/DST_RTC) - *from andydoro*  
-
-# PCB
-  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb.
-  **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
 
 ## Planned Features
   * [ ] send data to database (MYSQL), ThingSpeak
