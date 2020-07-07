@@ -25,6 +25,8 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 
 **for more info with tutorial go to section [All Boards list](boards.md)**
 
+<img src="image/PoolmatrixPrototype.jpg" height="250" />
+
 ## PoolMatrixNano [[Full version](boards.md#poolmatrixnano)]
 **Basic**
   * Arduino nano
