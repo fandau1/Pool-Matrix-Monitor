@@ -15,6 +15,11 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   * [x] Auto correct summer and standart time (DST correct)
 
 
+# How to use?
+You need to create circuit or pcb. Choose optimal HW version and upload code of SW version. You can choose below of version.
+
+Here you can find Full tutorial [[Full version](boards.md#poolmatrixnano)]
+
 # Hardware Versions
 |  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Approximate price  |
 | :--------: |:---:| :-----------------------: | :--------: | :--------: | :-----------------: |
