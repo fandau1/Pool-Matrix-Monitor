@@ -1,5 +1,4 @@
 # Pool-Matrix-Monitor
-[![Generic badge](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 [![Generic badge](https://img.shields.io/github/v/release/fandau1/Pool-Matrix-Monitor)](https://github.com/fandau1/Pool-Matrix-Monitor/releases)
 [![Generic badge](https://img.shields.io/badge/platform-arduino-lightgrey)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 
