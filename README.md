@@ -61,14 +61,14 @@ Here you can find Full tutorial [[Full version](boards.md#poolmatrixnano)]
 ## PCB
   I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb. PCB is saved in **pcb/...** you can choose more version(no ethernet, etc.).
  
-  **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
+  **PS: In this time you can choose only PoolMatrixNano**
 
 # Installation
  * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
  
  **In MD_Parola library you must to disable all advance function for a smaller size.**
  
- **PS: In this time isn'nt code uploaded :) . In early time will be upload.**
+ **PS: In this time you can choose only PoolMatrixNano**
  
 **Library**
   * [MD_MAX72xx](https://github.com/MajicDesigns/MD_MAX72XX) - *from MajicDesigns*
