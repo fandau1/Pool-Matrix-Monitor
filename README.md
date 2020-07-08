@@ -21,7 +21,7 @@ You need to create circuit or pcb. Choose optimal HW version and upload code of 
 Here you can find Full tutorial [[Full version](boards.md#poolmatrixnano)]
 
 # Hardware Versions
-|  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Approximate price  |
+|  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Price  |
 | :--------: |:---:| :-----------------------: | :--------: | :--------: | :-----------------: |
 | [PoolMatrixNano](#poolmatrixnano) | Arduino nano | cable | PMN-v1.0 | PMN-v1.1H | ~13$ |
 | PoolMatrixNanoEth | Arduino nano | cable | Not realesed | Not realesed |  |
