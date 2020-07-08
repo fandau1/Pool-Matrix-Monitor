@@ -19,7 +19,7 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 # Hardware Versions
 |  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Approximate price  |
 | :--------: |:---:| :-----------------------: | :--------: | :--------: | :-----------------: |
-| [PoolMatrixNano](#poolmatrixnano) | Arduino nano | cable | Not realesed | Not realesed | ~13$ |
+| [PoolMatrixNano](#poolmatrixnano) | Arduino nano | cable | PMN-v1.0 | PMN-v1.1H | ~13$ |
 | PoolMatrixNanoEth | Arduino nano | cable | Not realesed | Not realesed |  |
 | PoolMatrixESP32 | ESP32 | cable OR WIFI | Not realesed | Not realesed |  |
 | PoolMatrixESP8266 | ESP8266 | cable OR WIFI | Not realesed | Not realesed | |
