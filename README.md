@@ -1,5 +1,4 @@
 # Pool-Matrix-Monitor
-[![Generic badge](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 [![Generic badge](https://img.shields.io/github/v/release/fandau1/Pool-Matrix-Monitor)](https://github.com/fandau1/Pool-Matrix-Monitor/releases)
 [![Generic badge](https://img.shields.io/badge/platform-arduino-lightgrey)](https://github.com/fandau1/Pool-Matrix-Monitor/README_CZ.md)
 
@@ -15,11 +14,18 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   * [x] Auto detection connected sensors
   * [x] Auto correct summer and standart time (DST correct)
 
+# How to use?
+  **1.** Choose Optimal Board version. Project is saved in **__NAME_OF_BOARD__/...** (example **PoolMatrixNano/...**)  
+  **2.** Create circuit or pcb  
+  **3.** Upload Arduino Software with Arduino IDE  
+  **4.** Put sensors in conectors and you can put in box  
 
-# Hardware Versions
-|  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Approximate price  |
+# Boards Versions
+I have prepering more version of this project so you can choose which is best for you.
+
+|  Boards Versions  | MCU | transfer type pool sensor | SW release | HW release |  Price  |
 | :--------: |:---:| :-----------------------: | :--------: | :--------: | :-----------------: |
-| [PoolMatrixNano](#poolmatrixnano) | Arduino nano | cable | Not realesed | Not realesed | ~13$ |
+| [PoolMatrixNano](#poolmatrixnano) | Arduino nano | cable | PMN-v1.0 | PMN-v1.1H | ~13$ |
 | PoolMatrixNanoEth | Arduino nano | cable | Not realesed | Not realesed |  |
 | PoolMatrixESP32 | ESP32 | cable OR WIFI | Not realesed | Not realesed |  |
 | PoolMatrixESP8266 | ESP8266 | cable OR WIFI | Not realesed | Not realesed | |
@@ -29,6 +35,8 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
 <img src="image/PoolmatrixPrototype.jpg" height="250" />
 
 ## PoolMatrixNano [[Full version](boards.md#poolmatrixnano)]
+**Offline board arduino nano mcu with rtc, matrix display and sensors. Simple cheap and easy for home pool.**
+
 **Basic**
   * Arduino nano
   * DS3231
@@ -39,32 +47,18 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   * DS18B20 *- temperature sensor*
   * Photo Resistor
   * PH sensor PH-4502C 
-    
-**Schematic**
-|  Arduino  |   |  Modules  |
-| :-------: |---|  :------: |
-| D13(SCK) | -> |  MATRIX(CLK) |
-| D11(MOSI) | -> |  MATRIX(DIN) |
-| D10(SS) | -> | MATRIX(CS) |
-| D5(PWM) | -> | DS18B20 |
-| A5(SCL) | -> | DS3231(SCL) |
-| A4(SDA) | -> | DS3231(SDA) |
-| A1 | -> | PH sensor |
-| A0 | -> | Photo resistor(LUX meter) |
 
-<img src="image/pool-scheme.png" height="600" />
-
-## PCB
-  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb. PCB is saved in **pcb/...** you can choose more version(no ethernet, etc.).
+# PCB
+  I designed PCB oneside only with some proclaim wires :). So, you can easily create in home or you can solder on prototype pcb. PCB is saved in **__NAME_OF_BOARD__/pcb/** you can choose more version(no ethernet, etc.).
  
-  **PS: In this time isn'nt pcb uploaded :) . In early time will be upload.**
+  **PS: In this time you can choose only PoolMatrixNano**
 
 # Installation
- * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **src/...** you can choose more version(no ethernet, etc.).
+ * Download below library and upload code with Arduino IDE to arduino nano. Code is saved in **__NAME_OF_BOARD__/src/** you can choose more version(no ethernet, etc.).
  
  **In MD_Parola library you must to disable all advance function for a smaller size.**
  
- **PS: In this time isn'nt code uploaded :) . In early time will be upload.**
+ **PS: In this time you can choose only PoolMatrixNano**
  
 **Library**
   * [MD_MAX72xx](https://github.com/MajicDesigns/MD_MAX72XX) - *from MajicDesigns*
