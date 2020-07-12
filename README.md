@@ -1,7 +1,7 @@
 # Pool-Matrix-Monitor
 [![Generic badge](https://img.shields.io/github/v/release/fandau1/Pool-Matrix-Monitor)](https://github.com/fandau1/Pool-Matrix-Monitor/releases)
 [![Generic badge](https://img.shields.io/badge/platform-arduino-lightgrey)](https://github.com/fandau1/Pool-Matrix-Monitor/README.md)
-[![Generic badge](https://img.shields.io/badge/tutorial-CZ-red)](https://github.com/fandau1/Pool-Matrix-Monitor/TutorialCZ.md)
+[![Generic badge](https://img.shields.io/badge/tutorial-CZ-red)](https://github.com/fandau1/Pool-Matrix-Monitor/blob/master/TutorialCZ.md)
 
 **Simple arduino pool clock with sensors**
 
