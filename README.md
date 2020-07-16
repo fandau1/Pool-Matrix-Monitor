@@ -21,7 +21,7 @@ Pool-Matrix-Monitor is pool clock with temperature, ph sensor and all this data 
   **3.** Upload Arduino Software with Arduino IDE  
   **4.** Put sensors in conectors and you can put in box  
 
-  **[Full Tutorial in CZ language here](boards.md#poolmatrixnano)**
+  **[Full Tutorial in CZ language here](https://github.com/fandau1/Pool-Matrix-Monitor/blob/master/TutorialCZ.md)**
 
 # Boards Versions
 I have prepering more version of this project so you can choose which is best for you.
